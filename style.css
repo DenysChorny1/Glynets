@@ -2,9 +2,13 @@
 *{
     box-sizing: border-box;
 }
+html, body {
+    overflow-x: hidden;
+  }
 body{
     margin: 0;
     background-color: #FFFEFB;
+    position: relative
 }
 h1{
     color: #333;
@@ -372,6 +376,9 @@ a{
     }
     .baner-content{
         margin: auto 0;
+    }
+    .Baner .more span{
+        display: none;
     }
 }
 @media (max-width: 400px) {
