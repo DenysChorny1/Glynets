@@ -346,6 +346,9 @@ a{
 .Baner .slick-dots li::marker{
     content: '';
     opacity: 0;
+    background-color: transparent;
+    width: 0;
+    height: 0;
 }
 .Baner .slick-dots li button{
     display: none;
