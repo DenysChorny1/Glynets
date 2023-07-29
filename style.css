@@ -345,6 +345,7 @@ a{
 }
 .Baner .slick-dots li::marker{
     content: '';
+    opacity: 0;
 }
 .Baner .slick-dots li button{
     display: none;
@@ -397,6 +398,7 @@ a{
     width: 100%;
     margin-left: 40px;
     overflow-y: scroll;
+    scrollbar-color: #FFD00E #F9F9F9;
 }
 @media (max-width: 1600px) {
     .checking-content_text{
@@ -585,7 +587,7 @@ a{
     display: none;
     justify-content: center;
     align-items: center;
-    margin: 10px 10px 30px;
+    margin: 10px 10px 40px;
 }
 .aboutUs-slider{
     margin-top: 50px;
@@ -766,6 +768,8 @@ a{
     }
     #aboutUs .block{
         display: inline-block;
+    }
+    #aboutUs .block .block-text{
         
     }
     #aboutUs .block p{
@@ -915,6 +919,9 @@ a{
     transform: translate(50%, -50%);
 }
 @media (max-width: 1665px) {
+    .partners-content{
+        margin: 0;
+    }
     .partners-prev{
         left: 30px;
     }
