@@ -337,6 +337,7 @@ a{
     margin-right: 17px;
     opacity: 0.20000000298023224;
     cursor: pointer;
+    list-style-type: none;
 }
 .Baner .slick-dots li.slick-active{
     background-color: #FFD00E;
@@ -935,9 +936,14 @@ a{
 @media (max-width: 1305px) {
     .partners-prev{
         left: 40px;
+        top: 15px;
     }
     .partners-next{
         right: 40px;
+        top: 15px;
+    }
+    .partners-content .partners-slider{
+        padding: 0 15px;
     }
 }
 @media (max-width: 850px) {
@@ -1187,6 +1193,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
     }
     .footer-right .startup-3 {
         margin: 0 0 0 45px;
@@ -1202,5 +1209,8 @@ footer{
     .footer-left p{
         width: 100%;
         padding: 0;
+    }
+    .footer-right .block-startups img{
+        margin: 10px;
     }
 }
